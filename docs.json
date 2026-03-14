@@ -1,122 +1,80 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Telenet",
+  "theme": "almond",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "primary": "#f1d262",
+    "light": "#7c6c34",
+    "dark": "#19160b"
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://media.brand.dev/60a90780-779d-4b80-a52e-b7b5166da58e.png",
+    "dark": "https://media.brand.dev/60a90780-779d-4b80-a52e-b7b5166da58e.png"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "type": "github",
+      "href": "https://github.com/JMoreP/Telenet"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/JMoreP/Telenet"
     }
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": [
+          "introduction",
+          "why-telenet"
+        ]
+      },
+      {
+        "group": "Get Started",
+        "pages": [
+          "getting-started/check-coverage",
+          "getting-started/choose-plan",
+          "getting-started/installation"
+        ]
+      },
+      {
+        "group": "Service Plans",
+        "pages": [
+          "plans/overview",
+          "plans/basic",
+          "plans/hogar-plus",
+          "plans/pro-gaming",
+          "plans/comparison"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/fiber-optic",
+          "features/wifi-equipment",
+          "features/symmetric-speeds",
+          "features/technical-support"
+        ]
+      },
+      {
+        "group": "Coverage & Locations",
+        "pages": [
+          "coverage/service-areas",
+          "coverage/headquarters",
+          "coverage/installation-process"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "support/faq",
+          "support/contact",
+          "support/troubleshooting",
+          "support/hours"
+        ]
+      }
+    ]
   }
 }

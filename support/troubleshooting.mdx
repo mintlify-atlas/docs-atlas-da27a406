@@ -1,0 +1,302 @@
+---
+title: 'Troubleshooting Guide'
+description: 'Resolve common issues with your Telenet fiber optic service'
+icon: 'wrench'
+---
+
+## Quick Fixes
+
+Most connection issues can be resolved with these simple steps. Try these first before contacting support.
+
+<Warning>
+**Before you start:** Never reset your router to factory settings unless instructed by our support team. This will erase your configuration and may require a technician visit.
+</Warning>
+
+## Internet Connection Issues
+
+<AccordionGroup>
+  <Accordion title="No Internet Connection">
+    If you have no internet connection, follow these steps:
+
+    <Steps>
+      <Step title="Check physical connections">
+        - Ensure the fiber optic cable is securely connected to your router
+        - Check that the power adapter is plugged in and the router lights are on
+        - Look for the PON or LOS light - it should be solid green (not red or blinking)
+      </Step>
+      
+      <Step title="Restart your router">
+        - Unplug the power cable from the router
+        - Wait 30 seconds
+        - Plug it back in and wait 2-3 minutes for it to fully restart
+        - Check if the connection is restored
+      </Step>
+      
+      <Step title="Check for service outages">
+        - Contact us via WhatsApp to check if there's a known outage in your area
+        - We'll notify you of the estimated restoration time
+      </Step>
+      
+      <Step title="Test with wired connection">
+        - Connect a device directly to the router using an Ethernet cable
+        - If this works, the issue may be with your WiFi (see WiFi issues below)
+      </Step>
+    </Steps>
+
+    <Note>
+If none of these steps work, contact our 24/7 support team via WhatsApp or phone for immediate assistance.
+    </Note>
+  </Accordion>
+
+  <Accordion title="Slow Internet Speeds">
+    If your internet is slower than expected:
+
+    <Steps>
+      <Step title="Test your speed">
+        - Visit [speedtest.net](https://speedtest.net) on a wired connection
+        - Compare results to your plan speed (300/600/1000 Mbps)
+        - Run the test multiple times for accuracy
+      </Step>
+      
+      <Step title="Check connected devices">
+        - Too many devices can slow your network
+        - Disconnect devices you're not using
+        - Check if any device is downloading large files
+      </Step>
+      
+      <Step title="Restart your router">
+        - Unplug the router for 30 seconds
+        - Plug it back in and wait for full restart
+        - Test speed again after restart
+      </Step>
+      
+      <Step title="Test on different devices">
+        - Try the speed test on multiple devices
+        - If only one device is slow, the issue may be with that device
+      </Step>
+    </Steps>
+
+    <Warning>
+**WiFi vs Wired:** WiFi speeds are typically 60-80% of your plan speed. For maximum performance, use a wired Ethernet connection.
+    </Warning>
+  </Accordion>
+
+  <Accordion title="Intermittent Connection Drops">
+    If your connection keeps dropping:
+
+    **Possible causes:**
+    - Loose fiber cable connection
+    - Router overheating
+    - Firmware issues
+    - WiFi interference (if wireless)
+
+    **Solutions:**
+    <Steps>
+      <Step title="Check cable connections">
+        Ensure all cables are firmly connected and not damaged
+      </Step>
+      
+      <Step title="Check router placement">
+        - Ensure router is in a well-ventilated area
+        - Don't place in enclosed spaces or near heat sources
+        - Keep vents clear of dust
+      </Step>
+      
+      <Step title="Update router firmware">
+        Contact support to check if a firmware update is available for your router
+      </Step>
+      
+      <Step title="Monitor the pattern">
+        - Note when drops occur (time of day, during specific activities)
+        - Share this information with support for faster diagnosis
+      </Step>
+    </Steps>
+  </Accordion>
+</AccordionGroup>
+
+## WiFi Issues
+
+<AccordionGroup>
+  <Accordion title="Weak WiFi Signal / Dead Zones">
+    If you have poor WiFi coverage in some areas:
+
+    **Immediate fixes:**
+    - Move router to a central location in your home
+    - Place router on a high shelf (not on the floor)
+    - Keep away from walls, metal objects, and other electronics
+    - Ensure router antennas are pointing upward
+
+    **Long-term solutions:**
+    <CardGroup cols={2}>
+      <Card title="Upgrade to Hogar+" icon="signal">
+        Includes 1 Mesh repeater for extended coverage
+      </Card>
+      
+      <Card title="Upgrade to Pro Gaming" icon="tower-broadcast">
+        Includes WiFi 6E + 2 Mesh repeaters for maximum coverage
+      </Card>
+    </CardGroup>
+  </Accordion>
+
+  <Accordion title="Can't Connect to WiFi">
+    If devices can't connect to your WiFi:
+
+    <Steps>
+      <Step title="Check WiFi is enabled">
+        - Look for WiFi lights on your router (should be solid or blinking)
+        - Check if your device's WiFi is turned on
+      </Step>
+      
+      <Step title="Verify password">
+        - The default WiFi password is on a sticker on the router
+        - If you changed it, try the new password
+        - Passwords are case-sensitive
+      </Step>
+      
+      <Step title="Forget and reconnect">
+        - On your device, forget the WiFi network
+        - Search for networks again
+        - Select your network and enter the password
+      </Step>
+      
+      <Step title="Restart both devices">
+        - Restart your router (unplug for 30 seconds)
+        - Restart the device that can't connect
+      </Step>
+    </Steps>
+  </Accordion>
+
+  <Accordion title="WiFi Interference">
+    If you experience WiFi issues that come and go:
+
+    **Common sources of interference:**
+    - Microwave ovens
+    - Bluetooth devices
+    - Baby monitors
+    - Neighbor's WiFi networks
+    - Cordless phones
+
+    **Solutions:**
+    - Move router away from interfering devices
+    - Change WiFi channel (contact support for assistance)
+    - Upgrade to WiFi 6 or 6E (less interference, included in higher plans)
+  </Accordion>
+</AccordionGroup>
+
+## Router Issues
+
+<AccordionGroup>
+  <Accordion title="Router Lights Meaning">
+    Understanding your router's indicator lights:
+
+    | Light | Color | Meaning |
+    |-------|-------|----------|
+    | Power | Green (solid) | Router is powered on |
+    | Power | Off | No power - check power cable |
+    | PON/LOS | Green (solid) | Fiber connection OK |
+    | PON/LOS | Red or blinking | Fiber connection issue |
+    | Internet | Green (solid) | Internet connected |
+    | Internet | Red or off | No internet connection |
+    | WiFi | Green (blinking) | WiFi active and transmitting |
+    | LAN | Green (blinking) | Ethernet device connected |
+
+    <Warning>
+If the PON/LOS light is red or blinking, there may be an issue with your fiber connection. Contact support immediately.
+    </Warning>
+  </Accordion>
+
+  <Accordion title="Router Overheating">
+    Routers can overheat if not properly ventilated:
+
+    **Signs of overheating:**
+    - Router feels very hot to touch
+    - Frequent disconnections
+    - Slow performance
+
+    **Prevention:**
+    - Keep in well-ventilated area
+    - Don't cover or stack items on top
+    - Keep vents clear of dust
+    - Don't place in direct sunlight
+    - Consider using a small fan nearby in hot climates
+  </Accordion>
+
+  <Accordion title="Forgot WiFi Password">
+    If you forgot your WiFi password:
+
+    <Steps>
+      <Step title="Check router sticker">
+        The default WiFi name and password are printed on a sticker on the router
+      </Step>
+      
+      <Step title="Check connected device">
+        If you have a device already connected, you can view the saved password in its settings
+      </Step>
+      
+      <Step title="Contact support">
+        Our support team can help you access your router settings or reset the password if needed
+      </Step>
+    </Steps>
+  </Accordion>
+</AccordionGroup>
+
+## Gaming & Streaming Issues
+
+<AccordionGroup>
+  <Accordion title="High Ping / Latency in Games">
+    For the best gaming experience:
+
+    **Recommended:**
+    - Use wired Ethernet connection (not WiFi)
+    - Close background apps and downloads
+    - Upgrade to Pro Gaming plan for lowest latency
+
+    **Troubleshooting:**
+    <Steps>
+      <Step title="Test your ping">
+        Use speedtest.net to check your ping (should be under 20ms)
+      </Step>
+      
+      <Step title="Check QoS settings">
+        Contact support to enable Quality of Service (QoS) for gaming traffic priority
+      </Step>
+      
+      <Step title="Use 5GHz WiFi band">
+        If you must use WiFi, connect to the 5GHz band for lower latency
+      </Step>
+    </Steps>
+  </Accordion>
+
+  <Accordion title="Buffering While Streaming">
+    If videos buffer frequently:
+
+    - Check your speed (may need to upgrade plan)
+    - Close other applications using bandwidth
+    - Use wired connection for 4K streaming
+    - Restart your streaming device
+    - Check if multiple people are streaming simultaneously
+
+    **Recommended speeds for streaming:**
+    - HD (1080p): 5 Mbps per stream
+    - 4K: 25 Mbps per stream
+    - Multiple 4K streams: Hogar+ (600 Mbps) or Pro Gaming (1000 Mbps)
+  </Accordion>
+</AccordionGroup>
+
+## Still Need Help?
+
+If you've tried these troubleshooting steps and still have issues:
+
+<CardGroup cols={2}>
+  <Card title="Contact Support" icon="headset" href="/support/contact">
+    Get help from our 24/7 support team
+  </Card>
+  
+  <Card title="Check FAQ" icon="circle-question" href="/support/faq">
+    More answers to common questions
+  </Card>
+</CardGroup>
+
+<Note>
+**Pro Gaming customers** receive VIP priority support with faster response times. Contact us via WhatsApp or phone for immediate assistance.
+</Note>
