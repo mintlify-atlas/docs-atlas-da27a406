@@ -1,0 +1,80 @@
+{
+  "projectType": "saas",
+  "projectName": "Telenet",
+  "projectDescription": "Venezuelan fiber optic internet service provider offering high-speed symmetric internet plans with 24/7 support.",
+  "theme": "almond",
+  "primaryColor": "#f1d262",
+  "lightColor": "#7c6c34",
+  "darkColor": "#19160b",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": [
+          "introduction",
+          "why-telenet"
+        ]
+      },
+      {
+        "group": "Get Started",
+        "pages": [
+          "getting-started/check-coverage",
+          "getting-started/choose-plan",
+          "getting-started/installation"
+        ]
+      },
+      {
+        "group": "Service Plans",
+        "pages": [
+          "plans/overview",
+          "plans/basic",
+          "plans/hogar-plus",
+          "plans/pro-gaming",
+          "plans/comparison"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/fiber-optic",
+          "features/wifi-equipment",
+          "features/symmetric-speeds",
+          "features/technical-support"
+        ]
+      },
+      {
+        "group": "Coverage & Locations",
+        "pages": [
+          "coverage/service-areas",
+          "coverage/headquarters",
+          "coverage/installation-process"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "support/faq",
+          "support/contact",
+          "support/troubleshooting",
+          "support/hours"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Symmetric fiber optic speeds up to 1000 Mbps",
+    "WiFi 6/6E routers included with all plans",
+    "24/7 technical support (VIP for Pro Gaming)",
+    "Free installation and mesh repeaters",
+    "Fixed IP address option for Pro Gaming",
+    "Coverage validation with interactive maps"
+  ],
+  "publicApiSurface": [
+    "Basic Plan - 300 Mbps symmetric for $19.99/month",
+    "Hogar+ Plan - 600 Mbps symmetric for $29.99/month",
+    "Pro Gaming Plan - 1000 Mbps symmetric for $49.99/month",
+    "Coverage check via Google Maps integration",
+    "WhatsApp contact integration",
+    "Headquarters location: Barinas, Venezuela"
+  ]
+}
